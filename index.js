@@ -118,7 +118,7 @@ client.on('guildMemberAdd', async member => {
 });
 
 
-client.login('ODUwMTk5ODU4Njk4MTI1NDAy.YLmQUg.uT-bGbORkEy3tkRVB6ASg7geibQ');
+client.login('TOKEN');
 client.on('ready', async () => {
     console.log(`${client.user.tag} sudah online!`)
     client.user.setActivity("r/help")//bisa diganti sesuai keinginan
